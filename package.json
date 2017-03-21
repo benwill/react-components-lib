@@ -1,0 +1,45 @@
+{
+  "name": "react-components-lib",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "enzyme": "^2.7.1",
+    "react-addons-test-utils": "^15.4.2",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "start-storybook -p 9009 -s public",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "description": "Set of reusable react components",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benwill/react-components-lib.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "storybook",
+    "create-app",
+    "library"
+  ],
+  "files": [
+    "src/components"
+  ],
+  "author": "Ben Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benwill/react-components-lib/issues"
+  },
+  "homepage": "https://github.com/benwill/react-components-lib#readme"
+}
